@@ -1,0 +1,31 @@
+version: "3.3"
+services:
+
+  test_db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: example
+
+  dev_db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: example
+
+  webapp:
+    image: nicopaez/jobvacancy-dev:2.7.5
+    command: "/bin/bash"
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    ports:
+      - "3000:3000"
+    expose:
+      - 3000
+    volumes:
+        - .:/jobvacancy
+    environment:
+        RACK_ENV: "development"
+        TEST_DB_URL: "postgres://postgres:example@test_db:5432/postgres"
+        DEV_DB_URL: "postgres://postgres:example@dev_db:5432/postgres"
+    depends_on:
+      - test_db
+      - dev_db
