@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditorMainWindow</class>
+ <widget class="QMainWindow" name="EditorMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EditorMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>491</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>491</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Desktop/EditorMain.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="new_2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>320</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="load">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>390</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="back1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>590</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-20</y>
+        <width>531</width>
+        <height>851</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Desktop/editornew.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="gameName">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>90</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>90</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+background-color: rgb(46, 52, 54);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>NAME</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>150</y>
+        <width>341</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+color: rgb(238, 238, 236);
+background-color: rgb(46, 52, 54);</string>
+      </property>
+      <property name="text">
+       <string>NUMBER OF PLAYERS</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>150</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>5</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="startnew">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>590</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>210</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+background-color: rgb(46, 52, 54);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>MAP SIZE</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MapX">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>210</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MapY">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>210</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>210</y>
+        <width>21</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+color: rgb(238, 238, 236);</string>
+      </property>
+      <property name="text">
+       <string>x</string>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>back1</zorder>
+     <zorder>gameName</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>spinBox</zorder>
+     <zorder>startnew</zorder>
+     <zorder>label_5</zorder>
+     <zorder>MapX</zorder>
+     <zorder>MapY</zorder>
+     <zorder>label_6</zorder>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="back_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>590</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-20</y>
+        <width>561</width>
+        <height>1261</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Desktop/load.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="startLoad">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>590</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 700 11pt &quot;Dune Rise&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(96, 55, 5);
+	border: 2px solid white
+}
+</string>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>90</y>
+        <width>301</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(175, 151, 80);
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>271</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 20pt &quot;Dune Rise&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SELECT MAP</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MapX_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>190</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MapY_2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>190</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>190</y>
+        <width>21</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+color: rgb(238, 238, 236);</string>
+      </property>
+      <property name="text">
+       <string>x</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+background-color: rgb(46, 52, 54);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>MAP SIZE</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>250</y>
+        <width>341</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 16pt &quot;Dune Rise&quot;;
+color: rgb(238, 238, 236);
+background-color: rgb(46, 52, 54);</string>
+      </property>
+      <property name="text">
+       <string>NUMBER OF PLAYERS</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MapY_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>250</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 11pt &quot;Dune Rise&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_7</zorder>
+     <zorder>back_2</zorder>
+     <zorder>startLoad</zorder>
+     <zorder>comboBox</zorder>
+     <zorder>label_8</zorder>
+     <zorder>MapX_2</zorder>
+     <zorder>MapY_2</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_11</zorder>
+     <zorder>MapY_3</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

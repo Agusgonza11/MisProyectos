@@ -1,0 +1,310 @@
+{
+	"BUILD_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/Client_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client",
+	"CMAKE_EXECUTABLE" : "/snap/clion/193/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client/CMakeLists.txt",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-config-version.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-config.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-targets.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/BuildingImageHandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_BuildingImageHandler.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/Button.h",
+			"Mu",
+			"EWIEGA46WW/moc_Button.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/Client.h",
+			"Mu",
+			"EWIEGA46WW/moc_Client.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/ConstructionMenu.h",
+			"Mu",
+			"EWIEGA46WW/moc_ConstructionMenu.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/SocketException.h",
+			"Mu",
+			"EWIEGA46WW/moc_SocketException.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/UnitButton.h",
+			"Mu",
+			"EWIEGA46WW/moc_UnitButton.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/UnitImageHandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_UnitImageHandler.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/VehicleImageHandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_VehicleImageHandler.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/editormainwindow.h",
+			"Mu",
+			"EWIEGA46WW/moc_editormainwindow.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/firstwindow.h",
+			"Mu",
+			"EWIEGA46WW/moc_firstwindow.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/loginscreen.h",
+			"Mu",
+			"EWIEGA46WW/moc_loginscreen.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/sockets.h",
+			"Mu",
+			"EWIEGA46WW/moc_sockets.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/ui_firstwindow.h",
+			"Mu",
+			"EWIEGA46WW/moc_ui_firstwindow.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/ui_loginscreen.h",
+			"Mu",
+			"EWIEGA46WW/moc_ui_loginscreen.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/Client_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/Client_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtMultimedia",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/local/include",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/Client_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/CMakeFiles/Client_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client/cmake-build-debug/CMakeFiles/Client_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/BuildingImageHandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/Button.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/Client.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/ConstructionMenu.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/SocketException.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/UnitButton.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/UnitImageHandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/VehicleImageHandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/editormainwindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/firstwindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/loginscreen.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client/sockets.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
