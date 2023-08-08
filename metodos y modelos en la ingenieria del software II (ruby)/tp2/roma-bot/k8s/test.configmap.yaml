@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: botconfig
+data:
+  LOG_LEVEL: "debug"
+  API_URL: "https://roma-api-staging.herokuapp.com"
+  LANONNA_API_KEY: '79b3d02f-9f78-430e-b0a7-658c29d0d16f'
