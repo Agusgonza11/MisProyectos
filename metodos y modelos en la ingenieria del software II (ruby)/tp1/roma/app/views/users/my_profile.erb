@@ -1,0 +1,24 @@
+<h1>Profile</h1>
+
+	
+<table class="table table-bordered">
+	<tr>
+		<th>Mail</th>
+		<th>Preferences</th>
+		<th>Actions</th>
+	</tr>
+
+	<tr>
+		<td>
+			<%= @user.email %>
+		</td>
+		<td>
+			<%= @user.preferences %>
+		</td>
+		<td>
+			
+			<%= link_to 'Edit preferences', url_for(:users, :edit, :user_id => @user.id), :class => "btn btn-primary" %>
+		</td>		
+	</tr>
+
+</table>

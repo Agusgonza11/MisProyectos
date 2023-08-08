@@ -1,0 +1,10 @@
+<h1>Edit User Profile</h1>
+<% form_for(@user, "/users/update/#{@user.id}") do |f| %>
+
+  <%= f.label :preferences %>
+  <%= f.text_field :preferences, :class => "input-block-level" %>
+  <%= errors_for(@errors, :preferences) %>
+
+  <%= f.submit "Save", :class => "btn btn-primary", :id => 'saveButton' %>
+  <%= link_to 'Cancel', url_for(:users, :my), :class => "btn btn-secondary", :id => 'cancelButton' %>
+<% end %>
