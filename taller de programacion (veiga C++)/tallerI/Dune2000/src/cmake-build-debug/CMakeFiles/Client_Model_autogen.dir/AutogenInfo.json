@@ -1,0 +1,644 @@
+{
+	"BUILD_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/Client_Model_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model",
+	"CMAKE_EXECUTABLE" : "/snap/clion/198/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/CMakeLists.txt",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake",
+		"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-config-version.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-config.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-targets.cmake",
+		"/usr/local/share/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/Button.h",
+			"Mu",
+			"EWIEGA46WW/moc_Button.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/ClientError.h",
+			"Mu",
+			"EWIEGA46WW/moc_ClientError.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/ConstructionMenu.h",
+			"Mu",
+			"EWIEGA46WW/moc_ConstructionMenu.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/UnitButton.h",
+			"Mu",
+			"EWIEGA46WW/moc_UnitButton.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/UnitImageHandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_UnitImageHandler.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/VehicleImageHandler.h",
+			"Mu",
+			"EWIEGA46WW/moc_VehicleImageHandler.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/client_class.h",
+			"Mu",
+			"EWIEGA46WW/moc_client_class.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_assault.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_assault.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_camera.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_camera.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_canyon.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_canyon.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_explosion.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_explosion.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_game_screen.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_game_screen.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_ground.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_ground.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_model.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_model.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_pointer.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_pointer.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_protocol.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_protocol.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_selector.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_selector.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_tank.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_tank.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_trike.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_trike.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_unit.h",
+			"Mu",
+			"EWIEGA46WW/moc_common_unit.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/dunelogin.h",
+			"Mu",
+			"EWIEGA46WW/moc_dunelogin.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/ui_dunelogin.h",
+			"Mu",
+			"EWIEGA46WW/moc_ui_dunelogin.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Common/SocketException.h",
+			"Mu",
+			"MKXBYGW7O5/moc_SocketException.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Common/Sockets.h",
+			"Mu",
+			"MKXBYGW7O5/moc_Sockets.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/building.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_building.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/construction_centre.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_construction_centre.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/light_infantry.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_light_infantry.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/tank.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_tank.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/teamable.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_teamable.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/trike.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_trike.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/unit.h",
+			"Mu",
+			"OMBFDZ5WPA/moc_unit.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/block_position.h",
+			"Mu",
+			"WO5LYSFIHN/moc_block_position.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/block_terrain.h",
+			"Mu",
+			"WO5LYSFIHN/moc_block_terrain.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/path_node.h",
+			"Mu",
+			"WO5LYSFIHN/moc_path_node.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/terrain_map.h",
+			"Mu",
+			"WO5LYSFIHN/moc_terrain_map.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Mobility/infantry_mobility.h",
+			"Mu",
+			"FOKOQL6BHU/moc_infantry_mobility.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Mobility/unit_mobility.h",
+			"Mu",
+			"FOKOQL6BHU/moc_unit_mobility.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Mobility/vehicle_mobility.h",
+			"Mu",
+			"FOKOQL6BHU/moc_vehicle_mobility.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/assault_rifle.h",
+			"Mu",
+			"73U7TQATHI/moc_assault_rifle.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/cannon.h",
+			"Mu",
+			"73U7TQATHI/moc_cannon.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/weapon.h",
+			"Mu",
+			"73U7TQATHI/moc_weapon.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/control_unit.h",
+			"Mu",
+			"CWUMMVR5UC/moc_control_unit.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/entity_factory.h",
+			"Mu",
+			"CWUMMVR5UC/moc_entity_factory.cpp",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/mock_server.h",
+			"Mu",
+			"CWUMMVR5UC/moc_mock_server.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/Client_Model_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/Client_Model_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtMultimedia",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/local/include",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/Client_Model_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/Client_Model_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/Client_Model_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/Button.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/ConstructionMenu.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/UnitButton.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/UnitImageHandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/VehicleImageHandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/client_class.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/client_main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_assault.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_camera.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_canyon.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_explosion.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_frames.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_game_screen.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_ground.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_model.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_pointer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_protocol.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_selector.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_tank.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_trike.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/common_unit.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/dunelogin.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Common/SocketException.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Common/Sockets.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/building.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/construction_centre.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/light_infantry.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/tank.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/teamable.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/trike.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Entities/unit.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/block_position.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/path_node.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Map/terrain_map.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Mobility/infantry_mobility.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Mobility/vehicle_mobility.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/assault_rifle.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/cannon.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Model/Weapons/weapon.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/configuration_loader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/control_unit.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/entity_factory.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/lucas/Desktop/Taller I/Dune2000/src/Server/mock_server.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
