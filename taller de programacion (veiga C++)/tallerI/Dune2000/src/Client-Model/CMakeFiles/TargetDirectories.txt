@@ -1,0 +1,4 @@
+/home/agus/Documentos/tallerI/Dune2000/src/Client-Model/CMakeFiles/rebuild_cache.dir
+/home/agus/Documentos/tallerI/Dune2000/src/Client-Model/CMakeFiles/edit_cache.dir
+/home/agus/Documentos/tallerI/Dune2000/src/Client-Model/CMakeFiles/Client_Model.dir
+/home/agus/Documentos/tallerI/Dune2000/src/Client-Model/CMakeFiles/Client_Model_autogen.dir
