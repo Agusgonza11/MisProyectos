@@ -1,0 +1,1 @@
+class NoHayRepartidores < StandardError; end
