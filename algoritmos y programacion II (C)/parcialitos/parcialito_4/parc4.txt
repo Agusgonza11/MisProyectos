@@ -1,0 +1,75 @@
+#Ejercicio 2
+a) Este problema se podria modelar como un grafo poniendo cada una de esas "bifurcaciones" como 
+vertices, las calles, colectora, rutas o autopistas serian las aristas, y el peso de esas aristas
+la cantidad de dinero que saldria transitar cada una de ellas. Entonces si se quiere ir del punto
+A al punto B, se tendria que realizar un algoritmo de caminos minimos, el algoritmo de Dijkstra 
+seria perfectamente util ya que no habran aristas de peso negativo (esto se asume ya que seria 
+ilogico que se pudiera ganar dinero por el hecho de ir por una calle o autopista). Tambien tenemos
+que tener en cuenta el caso de que, incluso el camino minimo desde a hacia b, ocupe mas dinero
+del que tiene grace a disposicion
+
+b)
+def camino_minimo_grace(grafo, dinero, a, b): #Se asume que ya implementamos el grafo de a
+	camino = calcular_camino_minimo_grace(grafo, dinero, a, b)
+	if camino == None: print("No se encuentra un camino con la cantidad de dinero disponible")
+	else:
+		resultado = []
+		c = camino[b]
+		while c != None:
+			resultado.append(c)
+			c = camino[c]
+		print(resultado)  #Se podria implementar una funcion para que lo invierta y se imprima 
+						   de izquierda a derecha
+			
+
+
+def calcular_camino_minimo_grace(grafo, dinero, a, b): 
+	costo_total, camino = encontrar_camino_minimo_grace(grafo,dinero, a, b)
+	if costo_total < dinero: 
+		return camino 
+	else:
+		return None
+
+def encontrar_camino_minimo_grace(grafo,plata, a, b): 
+	dinero = {}
+	bifurcacion = {}
+	for v in grafo:
+		dinero[v] = float("inf")
+	dinero[a] = 0
+	bifurcacion[a] = None
+	h = Heap()
+	h.encolar((0, a))
+	while not h.esta_vacio():
+		p, v = h.desencolar()
+		for w in grafo.adyacentes(v):
+			if grafo.peso(v,w) > plata: continue
+			if dinero[v] + grafo.peso(v, w) < dinero[w]:
+				dinero[w] = dinero[v] + grafo.peso(v,w)
+				bifurcacion[w] = v
+				h.encolar((dinero[w], w))
+	return dinero[b], bifurcacion
+	
+
+c) Si el peso de la arista en la que se encuentra el algoritmo, es mayor al dinero del que 
+dispone grace, ni siquiera la tiene en cuenta, ya que se da por hecho que no podra pasar por ahi.
+Y en el caso de que no posea el dinero suficiente para ningun recorrido, la funcion original 
+devolvera False, indicando que no hay ningun camino posible
+
+
+#Ejercicio 7
+a) Falso. Es verdad que cuando en la red de flujo se utiliza una arista que no existe en el grafo
+original, significa que el flujo en la arista original se debe disminuir, pero es falso que el
+flujo total tambien disminuye, todo lo contrario, aumenta. 
+
+b) Falso, que haya un ciclo no tiene porque impedir que no se pueda realizar la maximizacion de 
+flujo. EJ: (ejemplo sensillo obviando el peso de las aristas para no compliar el grafico demasiado)
+S->A->T             
+	->B->C->A
+Aca la fuente esta unida a "A" que tiene una conexion al sumidero y a su vez tiene un ciclo con B y C, sin embargo, puedo crear la red de flujo.
+
+c) Verdadero, no genera ningun inconveniente que los pesos sean negativos a la hora de calcular
+el arbol de tendido minimo
+
+
+
+
