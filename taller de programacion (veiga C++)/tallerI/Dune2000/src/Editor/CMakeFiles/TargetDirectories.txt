@@ -1,0 +1,4 @@
+/home/lucas/Desktop/Taller I/Dune2000/src/Editor/CMakeFiles/rebuild_cache.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Editor/CMakeFiles/edit_cache.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Editor/CMakeFiles/Editor.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Editor/CMakeFiles/Editor_autogen.dir
