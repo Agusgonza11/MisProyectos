@@ -1,0 +1,9 @@
+{
+"LOG_LEVEL":"info",
+"LOG_STREAM":"stdout",
+"ENABLE_RESET": "false",
+"RACK_ENV": "production",
+"ENABLE_MOCK_CLIMA": "false",
+"CLIMA_API_KEY": "3b6f6a1f19d14f96a76194803221911",
+"LANONNA_API_KEY": "79b3d02f-9f78-430e-b0a7-658c29d0d16f"
+}
