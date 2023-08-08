@@ -1,5 +1,0 @@
-6Uhil5JERoizYEzs64Zy8Q
-
-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
-
-SMTP_ADDRESS='smtp.gmail.com' SMTP_PORT=587 SMTP_USER='praga.fiuba.20222c@gmail.com' SMTP_PASS='bewqgwwezmigefmw' RACK_ENV=development bundle exec padrino start -h 0.0.0.0
