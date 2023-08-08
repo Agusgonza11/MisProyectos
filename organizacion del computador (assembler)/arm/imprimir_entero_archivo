@@ -1,0 +1,52 @@
+@constantes
+.equ SWI_Open_File, 0x66
+.equ SWI_Read_Int, 0x6C
+.equ SWI_Print_Int, 0x6B
+.equ SWI_Close_File, 0x68
+.equ SWI_Exit, 0x11
+
+.data
+filename:
+	@ .asciz: string terminado en byte nulo
+	.asciz "entero.txt"
+	
+.text
+.global_start
+
+_start:
+	@carga el puntero al string en el registro r0
+	ldr r0, =filename
+	mov r1, #0  @abrir para lectura
+	swi SWI_Open_File  @abrir el archivo
+	
+	@copia el manejador de archivo de r0 a r5
+	mov r5,r0
+	
+	@lee un entero desde el archivo, pre condicion: r0 tiene el handle, post condicion: el r0 tiene el entero leido desde el archivo
+	swi SWI_Read_Int
+	
+	@mostrar el enero por pantalla, pre condicion: r0 dice donce mostrar y r1 el entero a mostrar
+	mov r1,r0
+	mov r0, #1 @1: stdout (por salida estandar)
+	swi SWI_Print_Int
+	
+	@cierra el archivo, pre condicion: r0 tiene que tener el handle
+	mov r0, r5
+	swi SWI_Close_File
+	
+	@termina el programa
+	swi SWI_Exit
+	.end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

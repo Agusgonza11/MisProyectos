@@ -1,0 +1,125 @@
+ejercicio A)
+
+A= 123213 | Base 8
+
+Primero lo paso a binario, como esta en base 8 uso la regla de potencias exactas
+
+ 1       2    3    2      1     3
+
+001 010 011 010 001 011 
+
+Elimino los 0 de adelante para que quede de 16 bits
+
+1010011010001011 (es negativo ya que empieza con un uno)
+
+hago el not + 1
+
+0101100101110100
+
++                           1
+
+--------------------------
+
+0101100101110101
+
+' <-esto simbolizara "elevado"
+
+1*2'0 + 1*2'2 + 1*2'4 + 1*2'5 + 1*2'6 +  1*2'8 + 1*2'11 + 1*2'12 + 1*2'14
+
+A= -22901 
+
+
+
+B=15261213 | Base 8
+
+Lo tengo que pasar a base 16 para que sea empaquetado, entonces uso las divisiones sucesivas
+
+15261213|16
+
+resto-> 13 953825|16
+
+asi sucesivamente, despues tomamos el resto y tenemos el resultado en base 16 que es:
+
+35628B ->por la B sabemos que es negativo
+
+B=-35628
+
+ejercicio b)
+
+padron = 106086
+
+A - 6086
+
+paso mi padron a binario con la forma de las divisiones sucesivas
+
+6086|10 -> padron=  1011111000110
+
+P = 0001011111000110
+
+hallo el complemento + 1 para hacer A+(complemento P)
+
+P = 1110100000111010
+
+Ahora resuelvo la suma
+
+  1100000000110100 (acarreo) ->los dos ultimos son iguales por lo tanto el resultado es valido
+
+-----------------------------
+
+   1110100000111010
+
++ 1010011010001011 
+
+-----------------------------
+
+   1000111011000101
+
+Resultado = 1000111011000101
+
+ejercicio C)
+
+Primero tengo que tomar el resultado que se encuentra en bpf c/s y hacerle el not + 1
+
+Resultado =     1000111011000101
+
+Con el not+1 = 0111000100111011 (lo llamaremos R)
+
+R = 0111000100111011
+
+Le corro la coma para encontrar el exponente
+
+1,11000100111011 *10'14 -> (14 corri de lugar la coma)
+
+Hago el exceso mas el exponente
+
+14 + 127 = 141 -> lo paso a binario ->  10001101
+
+Ahora ya puedo armar el binario punto flotante de precision simple, este esta compuesto por
+
+un bit para el signo (en este caso 1 porque es negativo), 8 bits para el exponente (10001101), y 23 bits 
+
+restantes para la mantisa (11000100111011 y completando con 0 para llegar a 23 bits)
+
+entonces el resultado final seria:
+
+1 10001101 11000100111011000000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

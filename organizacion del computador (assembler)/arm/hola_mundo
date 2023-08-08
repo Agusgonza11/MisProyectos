@@ -1,0 +1,11 @@
+.global _start
+.data
+cadena: .asciz "Hola Mundo ARM!"
+
+.text
+_start:
+	ldr		r0,=cadena
+	swi		0x02
+	
+	swi		0x11
+.end

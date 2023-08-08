@@ -1,0 +1,106 @@
+Las microinstrucciones que ejecuta la maquina superabacus al hacer SUMAR 5,20(6) son:
+R6(registro 6) -> Acumulador
+20 + Acumulador -> Acumulador 
+(Hasta aca lo que hicimos fue enviar lo que hay en el registro 6 al acumulador, sumarle 20 y guardar ese resultado en el acumulador, si por ejemplo el registro 6 tuviera un 50, siempre hablando de un numero en base 10, el acumulador tendria 70)
+Acumulador -> RDM
+RDM -> RM
+RM -> Acumulador
+R3 + Acumulador -> Acumulador
+Acumulador -> R3
+Basicamente lo que hicimos fue sumar el contenido del registro 6, mas el numero 20, y a esa suma sumarle tambien lo que contiene el registro 3 y dejar ahi el resultado.
+
+
+El shift es basicamente un corrimiento de bits, puede ser hacia izquierda y hacia la derecha, en la propia instruccion de arm se puede especificar la cantidad de bits que se desean correr, esto es mas facil de ejemplificarlo con un codigo binario:
+Si yo por ejemplo tengo:
+11001111
+y le aplico un shift a derecha (de un solo bit, aunque se puede especificar en un campo inmediato la cantidad de bits que se desean shiftear) lo que estoy haciendo es perder el ultimo bit (en el caso de que sea a la izquierda lo que se perderia seria el primero) y quedaria tal que:
+01100111
+Y tambien esta el shift que es de forma aritmetica, que lo que hace es mantener el bit de signo, por ejemplo al ejemplo anterior hacerle un shift de forma aritmetica y hacia la derecha quedaria tal que:
+11100111
+Especificamente el barrel shifter indica cual es el shift que se quiere realizar.
+Esto se usa para multiplicar y dividir por 2
+Y en intel lo podria hacer tal que:
+mov		bl,2		
+mul		bl
+
+
+
+
+.equ SWI_Open_File, 0x66
+.equ SWI_Read_Int, 0x6C
+.equ SWI_Print_Int, 0x6B
+.equ SWI_Close_File, 0x68
+.equ SWI_Exit, 0x11
+
+.data
+archivo:
+	.asciz "archivo.txt"
+	
+.text
+.global_start
+
+_start:
+	ldr r0, =archivo
+	mov r1, #0  
+	swi SWI_Open_File  
+	
+	mov r5,r0
+	mov r4,#1
+
+leer:
+	mov r0,r5
+	swi SWI_Read_Int
+	cmp r0,#0
+	bmi leer
+	mul r4, r4, r0
+	bvc  leer @aca no sabia como salir del ciclo ya que no sabia como saber que ya llegue a un final del archivo, asi que asumi que era cuando habia un overflow
+
+
+
+imprimir:
+	mov r1,r4
+	mov r0, #1 
+	swi SWI_Print_Int
+	
+finProg:	
+	mov r0, r5
+	swi SWI_Close_File
+	
+	swi SWI_Exit
+	.end
+	
+	
+	
+	
+	
+Un elemento muy importante presente en la arquitectura de programacion es por ejemplo el repertorio de instrucciones, es decir lo que refiere a lo que tiene un opcode y operandos,estas pueden ser de varios tipos, ya sean las tipicas cuentas aritmeticas como por ejemplo en intel pueden ser mul, imul, add o lo que es el control de flujo como cmp, jump etc.
+
+Tambien estan los registros, en arm tenemos los registros directamente numerados como r1,r2,r3... y en intel (en el caso de windows) tenemos rbx,rcx,rax...etc
+
+Estan los tipos de datos, como por ejemplo las diferentes formas de plantear los operandos, ya sea a registro a memoria o un operando inmediato, por ejemplo en arm mov r0,#5 estoy moviendo el inmediato 5 al registro 0
+
+Y muy importante la memoria, dentro de esta tenemos varias ramas, ya sea cuando se especifica el tamaño de lo que se trabaja, por ejemplo en intel cuando se reserva ya sea un byte o una word para una variable, si se trata de un big o little endian, y el espacio que tendran las direcciones.
+
+
+
+
+El linking estatico tiene dos componentes, uno es el link editor o linker, que es basicamente un softwere que combina uno o mas archivos con codigo objeto en un unico archivo, que contiene codigo ejecutable, esto se hace ya que yo como programador no programo todas las instrucciones propias de la maquina o librerias para generar ese ejecutable.
+Otro componente es el loader, que es el proceso que se genera cuando se ejecuta un ejecutable, llevando ese proceso a la memoria de la maquina. Basicamente es una rutina de programa que copia ese ejecutable a la memoria principal para que luego pueda ser ejecutado.
+Este nuevo ejecutable que se genera debe tener todas las referencias relativas a las nuevas ubicaciones, esto se va realizando con los siguientes pasos:
+1) Construye la tabla de todos los modulos objeto y sus longitudes (esto es para ir cambiando las direcciones relativas y que sean coherentes en el nuevo espacio de direccion)
+2) A esa tabla le agrega la direccion base en la cual va a iniciar cada modulo
+3) Busca todas las instrucciones que referencian a memoria y les suma una constante de reubicacion que sera igual a la direccion de inicio de su modulo objeto, es decir, que todas las instrucciones que tenian alguna referencia, tienen que cambiarse.
+4) Es la resolucion de todas las instrucciones que referencian a alguna direcciones externa, lo hace cambiando esa referencia no definida por una direccion concreta.
+
+
+
+En la organizacion tradicional de los discos magneticos   el funcionamiento es un plato de un material no magnetico llamado substrato, cubierto por un material magnetible. Aca al igual que en las cintas magneticas tambien hay pistas, solo que ahora son circulares, sobre esa pista es que actua la cabeza lectora/grabadora, esta se basa en el funcionamiento de una bobina, basada en un alambre metalico que se enrolla, cuando este pasa por una corriente electrica genera un magnetismo, y la diferencia en lo que se graba sera si sera positivo o negativo, y para la lectura aparece un sensor que al pasarle una determinada corriente genera cierta resistencia, y en base a esa resistencia es que se sabe la direccion de la magnetizacion. La cabeza siempre opera a la misma velocidad sin importar en que pista se encuentre, otra caracteristica es que los bits exteriores giran a mayor velocidad que los interiores.
+La ventaja de la organizacion tradicional es que en esta se puede referenciar a cada bloque de informacion sabiendo su pista, lo malo es que al estar todo tan estructurado no se aprovecha al maximo la superficie del disco hablando en bits.
+En cambio en la grabacion multizona la superficie del disco se divide en zonas concentricas, donde cada una de esas pistas tendran una cantidad de bits constante, y ya que las zonas exteriores giran a mayor velocidad que las interiores, lo aprovecha haciendo que las zonas exteriores contengan mas bits por pista que en las zonas interiores, al estar esto optimizado de esta manera tenemos la ventaja de que poseemos una mayor capacidad de almacenamiento.
+
+En el adjunto se encuentra el grafico
+
+
+
+
+
