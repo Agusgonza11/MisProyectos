@@ -1,0 +1,4 @@
+/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/Client_Model.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lucas/Desktop/Taller I/Dune2000/src/Client-Model/cmake-build-debug/CMakeFiles/Client_Model_autogen.dir
