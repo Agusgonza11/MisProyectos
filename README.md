@@ -13,7 +13,7 @@ Este repositorio contiene una colección de proyectos realizados en varios lengu
 - Desarrollo de un juego de **ajedrez**.
 
 #### [Grupal - 23C1-Rusteze](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/taller%20de%20programacion/grupal/23C1-Rusteze)
-- **Nodo Bitcoin**: Implementación destacada de un nodo Bitcoin completo, con todas las funcionalidades clave como minería de bitcoins, creación de billeteras virtuales y gestión de transacciones. Incluye una interfaz gráfica desarrollada con **GTK**.
+- **Nodo Bitcoin**: Implementación de un nodo Bitcoin completo, con todas las funcionalidades clave como minería de bitcoins, creación de billeteras virtuales y gestión de transacciones. Incluye una interfaz gráfica desarrollada con **GTK**.
 
 ---
 
