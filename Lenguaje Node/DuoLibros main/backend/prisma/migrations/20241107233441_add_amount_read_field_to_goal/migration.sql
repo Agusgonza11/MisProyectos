@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Goal" ADD COLUMN     "amountRead" INTEGER NOT NULL DEFAULT 0;

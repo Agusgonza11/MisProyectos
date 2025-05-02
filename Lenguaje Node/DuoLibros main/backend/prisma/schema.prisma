@@ -1,0 +1,171 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               Int            @id @default(autoincrement())
+  uid              String?        @unique
+  name             String
+  lastName         String
+  email            String         @unique
+  readBooks        ReadBook[]
+  reviews          Review[]
+  favoriteBooks    FavoriteBook[]
+  goals            Goal[]
+  groupsCreated    Group[]        @relation("GroupCreator")
+  groupMemberships GroupMember[]
+  notifications    Notification[]
+}
+
+model Book {
+  id            Int            @id @default(autoincrement())
+  isbn          String         @unique
+  title         String
+  author        String
+  publishedDate DateTime
+  genre         Genre
+  description   String?
+  coverUrl      String
+  readBy        ReadBook[]
+  reviews       Review[]
+  favoritedBy   FavoriteBook[]
+}
+
+model ReadBook {
+  id         Int       @id @default(autoincrement())
+  userId     Int
+  bookId     Int
+  user       User      @relation(fields: [userId], references: [id])
+  book       Book      @relation(fields: [bookId], references: [id])
+  createdAt  DateTime  @default(now())
+  finishedAt DateTime?
+  startedAt  DateTime?
+
+  @@unique([userId, bookId])
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  content   String?
+  score     Int
+  createdAt DateTime @default(now())
+
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  bookId Int
+  book   Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+}
+
+model FavoriteBook {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  bookId Int
+  book   Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+}
+
+model Goal {
+  id                      Int            @id @default(autoincrement())
+  userId                  Int
+  user                    User           @relation(fields: [userId], references: [id])
+  type                    GoalType
+  targetAmount            Int
+  amountRead              Int            @default(0)
+  progress                Int            @default(0)
+  startDate               DateTime
+  endDate                 DateTime
+  completed               Boolean        @default(false)
+  createdAt               DateTime       @default(now())
+  allowNotifications      Boolean
+  notificationTimeHour    Int            @default(9)
+  notificationTimeMinutes Int            @default(0)
+  notifications           Notification[]
+
+  @@unique([userId, type, createdAt])
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  goalId    Int
+  goal      Goal     @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  message   String
+  createdAt DateTime @default(now())
+  viewed    Boolean  @default(false)
+}
+
+model Group {
+  id          Int           @id @default(autoincrement())
+  name        String        @unique
+  description String?
+  createdBy   Int // ID del usuario que es el administrador del grupo
+  creator     User          @relation("GroupCreator", fields: [createdBy], references: [id])
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  members     GroupMember[]
+}
+
+model GroupMember {
+  id       Int      @id @default(autoincrement())
+  userId   Int
+  groupId  Int
+  joinedAt DateTime @default(now())
+
+  user  User  @relation(fields: [userId], references: [id])
+  group Group @relation(fields: [groupId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, groupId])
+}
+
+enum GoalType {
+  BOOKS
+  PAGES
+}
+
+enum Genre {
+  FICTION
+  NON_FICTION
+  MYSTERY
+  FANTASY
+  SCIENCE_FICTION
+  BIOGRAPHY
+  HISTORY
+  ROMANCE
+  HORROR
+  SELF_HELP
+  POETRY
+  THRILLER
+  YOUNG_ADULT
+  CHILDRENS
+  CLASSIC
+  GRAPHIC_NOVEL
+  ADVENTURE
+  RELIGION
+  SCIENCE
+  ART
+  PHILOSOPHY
+  COOKING
+  TRAVEL
+  BUSINESS
+  SPORTS
+}

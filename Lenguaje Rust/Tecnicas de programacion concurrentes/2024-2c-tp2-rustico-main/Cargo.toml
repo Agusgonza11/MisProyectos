@@ -1,0 +1,21 @@
+[package]
+name = "src"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "pasajero"
+path = "src/pasajeros.rs"
+
+
+[dependencies]
+actix = "0.13"
+actix-rt = "2.0"
+futures = "0.3"
+tokio = { version = "1", features = ["full"] }
+
+
+[workspace]
+members = ["passengers", "server_ring", "db/libclient", "db/shared", "db/raft", "db/mockserver", "shared", "drivers", "payments", "db/server"]

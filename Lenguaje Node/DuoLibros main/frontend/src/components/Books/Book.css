@@ -1,0 +1,77 @@
+.book-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.book-list-title {
+    margin-bottom: 16px;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.search-input {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+
+.book-tabs {
+    margin-bottom: 24px;
+}
+
+.book-grid {
+    margin-top: 16px;
+}
+
+.book-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card-content {
+    flex-grow: 1;
+}
+
+.book-cover-container {
+    position: relative;
+    padding-top: 150%;
+    margin-bottom: 16px;
+}
+
+.book-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.move-to-select {
+    min-width: 120px;
+}
+
+.book-detail-cover {
+    width: 100%;
+    height: auto;
+}
+
+.book-detail-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.book-detail-rating-value {
+    margin-left: 8px;
+}
