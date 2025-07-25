@@ -1,0 +1,7 @@
+gateway:
+  address: ":6001"
+rabbitmq:
+  address: "amqp://guest:guest@rabbitmq/"
+  output_queue_name: "gateway_output"
+log:
+  level: "INFO"

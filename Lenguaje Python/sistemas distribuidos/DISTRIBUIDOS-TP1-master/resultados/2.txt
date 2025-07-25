@@ -1,0 +1,5 @@
+United States of America,120128886644.0
+France,2283781209.0
+United Kingdom,1611604610.0
+India,1184682797.0
+Japan,832585873.0
