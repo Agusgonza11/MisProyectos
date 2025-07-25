@@ -4,6 +4,27 @@ Este repositorio contiene una colección de proyectos realizados en varios lengu
 
 ---
 
+---
+
+## Proyectos Destacados
+
+- **[TP1 de Sistemas Distribuidos (Python)](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Python/sistemas%20distribuidos/DISTRIBUIDOS-TP1-master)**  
+  Aplicación escalable y tolerante a fallos para ejecutar consultas distribuidas sobre datasets utilizando RabbitMQ.
+
+- **[Nodo Bitcoin (Rust)](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/taller%20de%20programacion%20/grupal/23C1-Rusteze)**  
+  Nodo Bitcoin completo con funcionalidades clave como minería, transacciones y creación de billeteras, con interfaz gráfica en GTK.
+
+- **[DuoLibros (Node.js)](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Node/DuoLibros%20main)**  
+  REST API con backend y frontend que simula una plataforma tipo Goodreads, permitiendo interacción entre usuarios mediante reseñas, likes y más.
+
+- **[TP2 de Ruby - RESP-API](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Ruby/metodos%20y%20modelos%20en%20la%20ingenieria%20del%20software%20II/tp2)**  
+  API REST y bot de Telegram para gestión de un restaurante con arquitectura hexagonal, microservicios y base de datos integrada.
+
+- **[Proyecto Banco (Java)](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Java/proyectoBanco)**  
+  Sistema bancario con arquitectura MVC, backend en Spring Boot y persistencia en PostgreSQL. Enfoque en transacciones e inyección de dependencias.
+
+---
+
 ## Lenguaje Rust
 ### [Taller de Programación](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/taller%20de%20programacion%20)
 #### [Grupal - 23C1-Rusteze](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/taller%20de%20programacion%20/grupal/23C1-Rusteze)
@@ -11,6 +32,15 @@ Este repositorio contiene una colección de proyectos realizados en varios lengu
 
 #### [Individual](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/taller%20de%20programacion%20/individual/ajedrez)
 - Desarrollo de un juego de **ajedrez**.
+
+### [Técnicas de Programación Concurrentes](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/Tecnicas%20de%20programacion%20concurrentes)
+
+#### [TP2 - ConcuRide](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/Tecnicas%20de%20programacion%20concurrentes/2024-2c-tp2-rustico-main)
+- **ConcuRide**: Simulación de una aplicación distribuida para conectar pasajeros y conductores. Implementación distribuida con foco en concurrencia, eficiencia y escalabilidad.
+
+#### [TP1 - Consulta distribuida](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/Tecnicas%20de%20programacion%20concurrentes/2024-2c-tp1-Agusgonza11-main)
+- Ejecución de una consulta sobre un dataset de Kaggle de forma distribuida y concurrente.
+
 
 ### [TLD](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Rust/TLD)
 - Implementación de un juego multijugador de **batalla naval**, concurrente con múltiples hilos.
@@ -34,6 +64,14 @@ Este repositorio contiene una colección de proyectos realizados en varios lengu
 ---
 
 ## Lenguaje Python
+### [Sistemas Distribuidos](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Python/sistemas%20distribuidos)
+
+#### [TP1](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Python/sistemas%20distribuidos/DISTRIBUIDOS-TP1-master)
+- Aplicación para realizar consultas sobre datasets de forma distribuida y concurrente, utilizando **RabbitMQ** para la comunicación entre nodos. Es un sistema **escalable y tolerante a fallos**, ideal para el análisis de datos en entornos distribuidos.
+
+#### [TP0](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Python/sistemas%20distribuidos/Distribuidos-TP0-master)
+- Conjunto de ejercicios orientados a la práctica de ejecución distribuida, comunicación entre procesos, concurrencia y uso de contenedores con **Docker**.
+
 ### [Organización de Datos](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Python/organizacion%20de%20datos%20)
 - Varios enunciados sobre consultas a bases de datos, utilizando bibliotecas como **Spark**, **scikit-learn**, y **matplotlib** para machine learning y visualización de datos.
 
@@ -75,6 +113,14 @@ Este repositorio contiene una colección de proyectos realizados en varios lengu
 
 #### [TP3: Sistema de Archivos](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20C/sistemas_operativos/tp3/sisop_2022b_g28)
 - Desarrollo de un filesystem.
+
+
+---
+
+## Lenguaje Node
+
+### [DuoLibros](https://github.com/Agusgonza11/MisProyectos/tree/main/Lenguaje%20Node/DuoLibros%20main)
+- REST API con backend y frontend que simula una plataforma estilo **Goodreads**, donde los usuarios pueden compartir libros, dejar reseñas, dar likes y realizar distintas interacciones. Combina tecnologías modernas del ecosistema **Node.js** para ofrecer una experiencia completa e interactiva.
 
 ---
 
